@@ -1,6 +1,5 @@
-import pyautogui as gui
 from time import sleep
-import keyboard
+import pyautogui as gui
 
 width, height = gui.size()
 
@@ -27,6 +26,4 @@ def forgeLoop():
     
     
 for i in range(0, 100):
-    if keyboard.is_pressed('q'):
-        break
     forgeLoop()
